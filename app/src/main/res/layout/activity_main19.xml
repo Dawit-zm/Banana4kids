@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ruftafilms.banana4kids5.Main19Activity"
+    android:background="@drawable/backgra">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView18" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton139"
+                android:background="@null"
+                android:src="@drawable/we"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:onClick="we" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton140"
+                android:layout_below="@+id/imageButton139"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@null"
+                android:src="@drawable/wu"
+                android:layout_marginTop="12dp"
+                android:onClick="wu" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton141"
+                android:layout_below="@+id/imageButton140"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@null"
+                android:src="@drawable/wi"
+                android:layout_marginTop="12dp"
+                android:onClick="wi" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton142"
+                android:background="@null"
+                android:src="@drawable/wa"
+                android:layout_below="@+id/imageButton141"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:onClick="wa" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton143"
+                android:background="@null"
+                android:src="@drawable/wie"
+                android:layout_below="@+id/imageButton142"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:onClick="wie" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton144"
+                android:background="@null"
+                android:src="@drawable/w"
+                android:layout_below="@+id/imageButton143"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:onClick="w" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton145"
+                android:background="@null"
+                android:src="@drawable/wo"
+                android:layout_below="@+id/imageButton144"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:onClick="wo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.ruftafilms.com"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/imageView19"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView19"
+                android:src="@drawable/weimg"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageButton139"
+                android:layout_toEndOf="@+id/imageButton139"
+                android:layout_alignBottom="@+id/imageButton145" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
